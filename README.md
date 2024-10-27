@@ -1,6 +1,13 @@
 # Comprehensive-Guide-to-Scrapy-in-Python
 Comprehensive Guide to Scrapy in Python
+
+
+
+
 ![images](https://github.com/user-attachments/assets/66c4e008-f46e-41da-b7c1-43406b6051b9)
+
+
+
 ![2790650_b9ac](https://github.com/user-attachments/assets/fe5e23ac-67f2-42f3-87dd-63bc94b08935)
 
 
@@ -107,21 +114,32 @@ class ExamplePipeline:
 Then, add this pipeline to your project’s settings file (settings.py):
  
 ```
+
 ITEM_PIPELINES = {
     'myproject.pipelines.ExamplePipeline': 300,
 }```
+
+
 Using Scrapy Shell
 Scrapy Shell is an interactive tool for testing and reviewing your scraping code. To open this environment, use the following command:
  
 ```
-scrapy shell 'http://example.com'```
+
+
+scrapy shell 'http://example.com'
+
+```
 Within this environment, you can test your CSS and Xpath commands to manually extract data.
 
 Logging and Monitoring
 In complex projects, monitoring code performance and saving logs is essential. Scrapy provides logging at various levels. To enable logging, add the following lines to your Scrapy settings file (settings.py):
  
 ```
-LOG_LEVEL = 'INFO'```
+LOG_LEVEL = 'INFO'
+
+```
+
+
 Logging levels include DEBUG, INFO, WARNING, ERROR, and CRITICAL.
  
 Conclusion and Final Tips
